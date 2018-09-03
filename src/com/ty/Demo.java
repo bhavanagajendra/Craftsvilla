@@ -15,6 +15,7 @@ public class Demo {
 		driver.get("https://www.gmail.com");
 		Reporter.log(driver.getTitle(),true);
 		driver.close();
+		Reporter.log("Closed the browser successfully", true);
 
 	}
 }
